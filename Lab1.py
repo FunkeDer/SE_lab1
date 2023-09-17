@@ -6,7 +6,6 @@ def fibonacci(n):
     else:
         return fibonacci(n-1) + fibonacci(n-2)
 n = int(input("Введіть n: "))
-#hello
 if n < 0:
     print("Введіть додатне число.")
 else:
